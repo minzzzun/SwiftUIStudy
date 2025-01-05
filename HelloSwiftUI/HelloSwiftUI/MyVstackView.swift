@@ -18,3 +18,10 @@ struct MyVstackView: View {
         .background(Color.red)
     }
 }
+
+
+struct MyVstackViewPreviews: PreviewProvider {
+    static var previews: some View {
+        MyVstackView()
+    }
+}
