@@ -33,13 +33,13 @@ struct ContentView: View {
                 .lineSpacing(20) // 줄 간격
                 .truncationMode(.head) // 길어서 ... 되는 경우 자르기
                 .shadow(color: Color.red , radius:  1.5 , x: 10, y: 10)
-            
+                
             
             
             
                 .lineLimit(nil)
                 .padding(20)
-                .background(Color.yellow)
+                .background(Color.init(#colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)))
                 .cornerRadius(20)
             
                 .padding() // 이렇게 padding 여러 개 넣을 수 있음
@@ -49,8 +49,8 @@ struct ContentView: View {
             
             
             Text("안녕하세요")
-                .background(Color.gray)
-                .foregroundColor(Color.white)
+                .background(Color.init(#colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)))
+                .foregroundColor(Color.init(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
             
             Text("오늘의 날짜입니다. : \(today, formatter: ContentView.dateFormat)")
             
