@@ -24,6 +24,7 @@ struct ContentView: View {
     
     var body: some View {
         
+    
         VStack{
             Text("Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello")
                 .tracking(2) // 글자 사이의 간격
